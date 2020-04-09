@@ -12,6 +12,11 @@ img {
   width: 400px;
 }
 
+#price-box {
+  border: solid black 1px;
+ /* display: none; */
+}
+
 #theatername {
   font-family: cursive;
 }

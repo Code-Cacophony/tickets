@@ -17,12 +17,13 @@ Ticket.prototype.displayPrice = function () {
   }
 }
 
-
-
-
-
 Ticket.prototype.displayTicket = function () {
-
+  var movie = this.movie;
+  var time = this.time;
+  var age = this.age;
+  var price = this.price;
+  $("#price-box").html("<p> Movie: " + movie + "Time: " + time + "Age: " + age + "Price: " + price + "</p>");
+  $("#price-box").show();
 }
 
 
@@ -41,8 +42,11 @@ $(document).ready(function () {
     console.log(time);
     console.log(age);
     console.log(ticket);
-    console.log(ticket.displayPrice());
 
+
+    ticket.displayPrice();
+
+    ticket.displayTicket();
 
 
 
