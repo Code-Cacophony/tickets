@@ -1,7 +1,4 @@
 
-.age-select {
-  border: solid black 1px;
-}
 
 body {
   background-color: beige;
@@ -11,13 +8,6 @@ h1 {
   font-family: cursive;
 }
 
-
-.movie-select {
-  border: solid black 1px;
-}
-
-
-
 img {
   width: 400px;
 }
@@ -26,6 +16,3 @@ img {
   font-family: cursive;
 }
 
-.time-select {
-  border: solid black 1px;
-}

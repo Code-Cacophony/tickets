@@ -6,14 +6,17 @@ function Ticket(movie, time, age) {
   this.price = 0;
 }
 
-Ticket.prototype.displayPrice = function (ticket) {
+Ticket.prototype.displayPrice = function () {
   if (this.time === 1) {
-    this.price = 8.00
+    this.price = 15.00;
   } else {
-    this.price = 15.00
+    this.price = 8.00;
   }
-
+  if (this.age == 2) {
+    this.price = this.price * 0.8;
+  }
 }
+
 
 
 
@@ -38,7 +41,7 @@ $(document).ready(function () {
     console.log(time);
     console.log(age);
     console.log(ticket);
-    console.log(displayPrice(ticket));
+    console.log(ticket.displayPrice());
 
 
 
