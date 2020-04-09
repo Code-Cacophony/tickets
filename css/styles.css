@@ -7,9 +7,23 @@ body {
   background-color: beige;
 }
 
+h1 {
+  font-family: cursive;
+}
+
 
 .movie-select {
   border: solid black 1px;
+}
+
+
+
+img {
+  width: 400px;
+}
+
+#theatername {
+  font-family: cursive;
 }
 
 .time-select {
