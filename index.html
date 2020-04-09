@@ -14,30 +14,42 @@
     <h1>Le Cinema</h1>
     <p></p>
     <form id="user-input">
-      <div class="movie-selection">
-        <h2>Movies Showing:</h2>
 
-        <label for="movie1">Salo: 100 Days of Sodom</label>
-        <input id="movie1" type="radio">
-        <br>
-        <label value="1">Wavelength</label>
-        <input value="2" id="movie2" type="radio">
+      <div class="movie-select">
+        <label for="movie">Select a movie:</label>
+        <select id="movie" name="movie">
+          <option value="1">Salo: 100 Days of Sodom</option>
+          <option value="2">Wavelength</option>
+        </select>
+      </div>
+      <br>
+      <br>
+
+      <div class="time-select">
+        <label for="time">Select the time range:</label>
+        <select id="time" name="time">
+          <option value="1">Matinee(5-10pm)</option>
+          <option value="2">Regular(7am-4pm)</option>
+        </select>
+      </div>
+      <br>
+      <br>
+
+      <div class="age-select">
+        <label for="age">Select your age range:</label>
+        <select id="age" name="age">
+          <option value="1">Under 65</option>
+          <option value="2">Over 65</option>
+        </select>
       </div>
 
-      <label for="matinee" value="3">Matinee(1000)</label>
-      <input id="matinee" type="radio">
       <br>
-      <label for="regular" value="4">Regular(1700)</label>
-      <input id="regular" type="radio">
       <br>
-      <label for="under" value="5">Under 65</label>
-      <input id="under" type="radio">
-      <br>
-      <label for="over" value="6">Over 65</label>
-      <input id="over" type="radio">
+
+      <button type="submit" id="btn">Submit</button>
     </form>
 
-    <div id="under65">
+    <div id=" under65">
       <p>Here are your options</p>
     </div>
 
@@ -45,7 +57,6 @@
       <p></p>
     </div>
 
-  </div>
 </body>
 
 
